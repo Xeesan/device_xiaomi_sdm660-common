@@ -108,7 +108,9 @@ PRODUCT_PACKAGES += \
     liba2dpoffload \
     libhdmiedid \
     libhfp \
-    libsndmonitor
+    libsndmonitor \
+    libavservices_minijail \
+    libavservices_minijail.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
